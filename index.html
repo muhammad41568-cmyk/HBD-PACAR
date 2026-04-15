@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Happy Birthday Zahwa ❤️</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to bottom, #ffe6f0, #fff0f5);
+      overflow: hidden;
+      margin: 0;
+    }
+
+    h1 {
+      color: #ff4da6;
+      font-size: 40px;
+      margin-top: 30px;
+    }
+
+    p {
+      font-size: 18px;
+      width: 80%;
+      margin: auto;
+      line-height: 1.6;
+    }
+
+    .cake {
+      font-size: 80px;
+      animation: bounce 1s infinite;
+      margin: 20px 0;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+    }
+
+    .flower {
+      position: absolute;
+      font-size: 25px;
+      animation: fall linear infinite;
+    }
+
+    @keyframes fall {
+      from { transform: translateY(-10vh); }
+      to { transform: translateY(100vh); }
+    }
+
+    .box {
+      background: white;
+      padding: 20px;
+      margin: 20px auto;
+      border-radius: 20px;
+      width: 80%;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    iframe {
+      margin-top: 20px;
+      border-radius: 12px;
+    }
+
+  </style>
+</head>
+<body>
+
+<h1>🎉 Happy Birthday 🎉</h1>
+<h1>Zahwa Dwi Mauldina 💖</h1>
+
+<div class="cake">🎂</div>
+
+<div class="box">
+<p>
+selamatt berttambah usia sayangggggg, kata orang ulang tahun itu bukan bertambah usia tapi berkurang, oleh karna itu semoga semakin bertambah usia mu semakin juga berkurang masalah masalah dalam hidup mu. mau itu dari segi pendidikan, percintaan atau pun dalam masalah kamu sendiri.
+<br><br>
+makasihhh yaaa udah bertahan atas segala rintangan rintangan yang udah berhasil kamu lalui, im so proud of you babee. dan itu akan selalu, iloveyouuuu sayanggg sehat sehattt yaaa cintakuuu cantikkuuuuu 💕
+</p>
+</div>
+
+<!-- Musik (YouTube embed) -->
+<iframe width="300" height="170"
+src="https://www.youtube.com/embed/2Vv-BfVoq4g?autoplay=1&loop=1&playlist=2Vv-BfVoq4g">
+</iframe>
+
+<script>
+// bunga jatuh 🌸
+for (let i = 0; i < 30; i++) {
+  let flower = document.createElement("div");
+  flower.innerHTML = "🌸";
+  flower.className = "flower";
+  flower.style.left = Math.random() * 100 + "vw";
+  flower.style.animationDuration = (3 + Math.random() * 5) + "s";
+  document.body.appendChild(flower);
+}
+</script>
+
+</body>
+</html>
